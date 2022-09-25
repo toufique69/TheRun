@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.therun"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.therun.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.WecomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.therun.WECOMEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.therun.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.therun.HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.Credit"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.therun.CREDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.Game"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.therun.GAME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.GameOver"
+            android:label="@string/title_activity_game_over" >
+            <intent-filter>
+                <action android:name="com.example.therun.GAMEOVER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.Track"
+            android:label="@string/title_activity_track" >
+            <intent-filter>
+                <action android:name="com.example.therun.TRACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.therun.Scores"
+            android:label="@string/title_activity_scores" >
+            <intent-filter>
+                <action android:name="com.example.therun.SCORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

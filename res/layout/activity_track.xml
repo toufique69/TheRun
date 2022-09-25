@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/credit"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Track" >
+
+    <Button
+        android:id="@+id/buttont1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:drawableTop="@drawable/sa"
+        android:text="TRACK-1"
+        android:textColor="#33b5e5"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttont2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttont1"
+        android:layout_below="@+id/buttont1"
+        android:layout_marginTop="46dp"
+        android:drawableTop="@drawable/sb"
+        android:text="TRACK-2"
+        android:textColor="#33b5e5"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/backtrack"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/back3" />
+
+</RelativeLayout>
